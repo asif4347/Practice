@@ -45,7 +45,7 @@ if __name__ == '__main__':
     get_tracking_status_from_lbc()
 
 # the response data will be like. so use it accordingly
-"""
+data = """
 {
     "LBCTrackAndTraceResponse": {
         "@xmlns": "http://tempuri.org/",
@@ -220,3 +220,4 @@ if __name__ == '__main__':
     }
 }
 """
+print(data)
